@@ -48,21 +48,21 @@
         $ary = [1,2,3];
         $person = [
             "name" => "Janis",
-            "email" => "somemail@renars.lv",
+            "epasts" => "somemail@renars.lv",
             "level" => "Beginner"
         ];
 
         $names =[
-            ["name" => "Janis", "email" => "somemail@renars.lv", "level" => "Beginner"],
-            ["name" => "Antra", "email" => "somemail@antra.lv", "level" => "Intermediate"],
-            ["name" => "John", "email" => "somemail@john.lv", "level" => "Advanced", "some_info" => [1,2,3]],
+            ["name" => "Janis", "epasts" => "somemail@renars.lv", "level" => "Beginner"],
+            ["name" => "Antra", "epasts" => "somemail@antra.lv", "level" => "Intermediate"],
+            ["name" => "John", "epasts" => "somemail@john.lv", "level" => "Advanced", "some_info" => [1,2,3]],
         ];
 
         foreach($names as $name){
             echo "Vārds: "
                 . $name["name"]
                 . ", E-pasts: "
-                . $name["email"]
+                . $name["epasts"]
                 . ", Līmenis: "
                 . $name["level"]
                 . "<br>";
